@@ -1,0 +1,108 @@
+body {
+    background-image:url("fondo.webp");
+    background-color: #cccccc ;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.flex-container {
+  display: flex;
+  background-color: #064c72;
+  height:150px;
+  text-align: center;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-contenedor > img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.flex-contenedor:hover > img {
+  animation: zoom-in 0.5s ease-in-out forwards;
+}
+
+.juegos {
+  display: flex;
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 1px #064c72;
+  justify-content: space-between;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100vw;
+  background-color: #f0f0f0;
+}
+
+#loginButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #064c72;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#loginButton:hover {
+  background-color: #0056b3;
+}
+
+.login-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+h2 {
+  text-align: center;
+  color:#064c72
+}
+h3 {
+  text-align: center;
+  color:black
+}
+
+img-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.informacion {
+  display: flex;
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 1px #064c72;
+  justify-content: space-between;
+}

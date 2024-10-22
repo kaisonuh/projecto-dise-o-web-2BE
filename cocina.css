@@ -1,0 +1,58 @@
+body {
+  background-color: #8db4ad;
+  background-image:url("cosinafondo.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #026c80;
+  flex-direction: column;
+  width:160px;
+}
+
+.flex-container > div {
+  background-color: #ecae7d;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+}
+.comida { 
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 1px #064c72;
+    float: right;
+    top: 30px;
+  }
+h1 {
+  color: #ecae7d;
+  text-align: center;
+}
+h3 {
+  color:#ecae7d;
+  text-align: center;
+  
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-around;
+}
+#goToMainPage {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color:#8db4ad;
+  background-color: #064c72;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#goToMainPage:hover {
+  background-color: #ecae7d;
+}

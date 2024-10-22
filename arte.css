@@ -1,0 +1,45 @@
+body {
+  background-image: url("background-arte.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+.main {
+	display: flex;
+	width: 50%;
+	height: 100%;
+	margin: auto;
+	background-color: #ecae7d;
+	flex-direction: column;
+}
+.scorediv {
+	display: flex;
+	margin: auto;
+	background-color: #064c72;
+	width: 95%;
+	height: 20%;
+	justify-content: space-evenly;
+}
+.score {
+	color: #8db4ad;
+	font-size: 50px;
+}
+.gamesdiv {
+	display: flex;
+	column-count: 2;
+	column-gap: 10px;
+	flex-wrap: wrap;
+	
+}
+.game {
+	display: flex;
+	width: 150px;
+	height: 150px;
+	background-color: #064c72;
+}
+body {
+	font-family: Arial, sans-serif;
+  }
+  #canvas {
+	border: 1px solid black;
+  }
